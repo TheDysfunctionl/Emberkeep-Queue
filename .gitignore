@@ -1,0 +1,13 @@
+# Block all source code
+*.py
+To Do.txt
+
+# Block local data
+config.dat
+queue.json
+session_state.json
+
+# Block PyInstaller folders (we only want the final .exe in Releases)
+build/
+dist/
+*.spec
