@@ -14,6 +14,7 @@ Move the downloaded `Emberkeep.Queue.exe` file into that new folder.
 
 ### 3. Run the App
 Double-click the `Emberkeep.Queue.exe` file to start.
+>Emberkeep Queue will take a little while to launch the first time you run it.
 
 ---
 
