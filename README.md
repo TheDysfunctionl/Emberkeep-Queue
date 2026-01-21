@@ -2,6 +2,8 @@
 
 This application is "portable," which means it doesn't have a formal installer. Follow these simple steps to set it up:
 
+**[Download Latest Release](https://github.com/TheDysfunctionl/Emberkeep-Queue/releases/latest)**
+
 ### 1. Create a Folder
 Create a new folder anywhere on your PC (e.g., on your Desktop or in Documents) and name it something like `My Application`.
 
