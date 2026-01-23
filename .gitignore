@@ -1,13 +1,9 @@
-# Block all source code
-*.py
-To Do.txt
+# Ignore everything
+*
+# But don't ignore the gitignore itself
+!.gitignore
 
-# Block local data
-config.dat
-queue.json
-session_state.json
-
-# Block PyInstaller folders (we only want the final .exe in Releases)
-build/
-dist/
-*.spec
+# Un-ignore ONLY the installer
+!InstallerBuild/
+!InstallerBuild/Emberkeep_Setup.exe
+!icon.ico
