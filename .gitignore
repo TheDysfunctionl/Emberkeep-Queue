@@ -1,9 +1,0 @@
-# Ignore everything
-*
-# But don't ignore the gitignore itself
-!.gitignore
-
-# Un-ignore ONLY the installer
-!InstallerBuild/
-!InstallerBuild/Emberkeep_Setup.exe
-!icon.ico
