@@ -1,36 +1,42 @@
-# Getting Started
+# Emberkeep Queue
 
-This application is "portable," which means it doesn't have a formal installer. Follow these simple steps to set it up:
+A professional, streamlined Twitch queue manager designed for MTG streamers and content creators. Emberkeep Queue handles your community games with a clean OBS overlay and automated Twitch chat integration.
 
-**[Download Latest Release](https://github.com/TheDysfunctionl/Emberkeep-Queue/releases/latest)**
+## Installation
 
-### 1. Create a Folder
-Create a new folder anywhere on your PC (e.g., on your Desktop or in Documents) and name it something like `My Application`.
+Emberkeep Queue now features a full installer to handle setup and desktop shortcuts automatically.
 
-### 2. Move the .exe
-Move the downloaded `Emberkeep.Queue.exe` file into that new folder. 
+**[Download Emberkeep Setup (v1.1.0)](https://github.com/TheDysfunctionl/Emberkeep-Queue/releases/latest)**
 
-> **⚠️ Important:** When you run the app, it will automatically create `config.dat`, `queue.json` and `session_state.json` files. Putting it in its own folder prevents these files from cluttering your Desktop or Downloads folder.
-
-### 3. Run the App
-Double-click the `Emberkeep.Queue.exe` file to start.
->Emberkeep Queue will take a little while to launch the first time you run it.
+1. **Run the Installer:** Download and run `Emberkeep_Setup.exe`.
+2. **Standard Install:** The app will install to your Local Programs folder (no Administrator rights required).
+3. **Desktop Shortcut:** An "Emberkeep Queue" shortcut will be created on your desktop automatically.
 
 ---
 
-## Note on Windows SmartScreen
-Because this is an independent project, Windows might show a blue **"Windows protected your PC"** popup when you first launch it.
+## Windows SmartScreen Note
+As this is an independent project, Windows may display a "Windows protected your PC" popup.
 
-**To run the app:**
-1. Click **"More info"** on the blue screen.
-2. Click the **"Run anyway"** button that appears at the bottom.
-
----
-
-## What are these new files?
-After running the app, you will see new files (`config.dat`, `queue.json` and `session_state.json`) appear in the folder. **Do not delete these**, as they store your settings and queue data!
+**To launch:**
+1. Click **"More info"**.
+2. Click **"Run anyway"**.
 
 ---
 
-## 🛠️ Need Help?
-If you have any issues, please open an **Issue** on the GitHub repository.
+## Features
+
+* **Professional Storage:** All configuration and queue data are stored safely in `%AppData%`, keeping your folders clean.
+* **OBS Integration:** Built-in local web server for high-performance browser sources.
+* **Custom Branding:** Full control over accent colors and typography to match your stream theme.
+* **Auto-Updates:** The app checks for new versions and updates itself silently in the background.
+
+## Setup & OBS
+Once the app is running:
+1. Click **"Setup"** to link your Twitch channel.
+2. Go to the **"Visuals"** tab to design your overlay.
+3. Click **"Copy OBS Link"** and paste it as a **Browser Source** in OBS.
+
+---
+
+## Support
+If you encounter any bugs or have feature requests, please open an **Issue** on this repository.
