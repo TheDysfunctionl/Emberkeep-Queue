@@ -6,7 +6,7 @@ A professional, streamlined Twitch queue manager designed for MTG streamers and 
 
 Emberkeep Queue now features a full installer to handle setup and desktop shortcuts automatically.
 
-**[Download Emberkeep Setup (v1.1.0)](https://github.com/TheDysfunctionl/Emberkeep-Queue/releases/latest)**
+**[Download Emberkeep Setup (Latest)](https://github.com/TheDysfunctionl/Emberkeep-Queue/releases/latest)**
 
 1. **Run the Installer:** Download and run `Emberkeep_Setup.exe`.
 2. **Standard Install:** The app will install to your Local Programs folder (no Administrator rights required).
